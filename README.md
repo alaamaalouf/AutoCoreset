@@ -1,5 +1,6 @@
 # AutoCoreset
-AutoCoreset in an automatic practical Coreset construction framework for any function. The user only has to specify the desired cost function and dataset.
+A coreset is a small weighted subset that approximates the loss function on the whole data, prevalent in machine learning for its advantages. However, current construction methods are problem-dependent and may be challenging for new researchers.
+No worries, we got you. We propose "AutoCoreset": an automatic practical framework for constructing coresets requiring only input data and the cost function (without any other user computation or calculation), making it user-friendly and applicable to various problems. See our open-source code which supports future research and simplifies coreset usage.
 
 If you find this work helpful please cite us:
 
