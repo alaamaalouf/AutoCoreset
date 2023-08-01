@@ -10,6 +10,8 @@ A coreset is a small weighted subset that approximates the loss function on the 
 
 No worries, we got you. We propose "*AutoCoreset*": an automatic practical framework for constructing coresets requiring only input data and the cost function (without any other user computation or calculation), making it user-friendly and applicable to various problems. See our open-source code which supports future research and simplifies coreset usage.
 
+![AutoCoreset design](GithubImages/autocore_teaser.png?raw=true)
+
 # Usage
 
 
