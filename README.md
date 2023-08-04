@@ -1,6 +1,6 @@
 # AutoCoreset
 
-**[1 CSAIL, MIT](https://www.csail.mit.edu/)**  | **[2 DatHeores](https://dataheroes.ai/)**  | **[3 Rice University](https://www.rice.edu/)**
+**[1 CSAIL, MIT](https://www.csail.mit.edu/)**  | **[2 DataHeroes](https://dataheroes.ai/)**  | **[3 Rice University](https://www.rice.edu/)**
 
 *[Alaa Maalouf](https://scholar.google.com/citations?user=6r72e-MAAAAJ&hl=en), [Murad Tukan](https://scholar.google.com/citations?user=721xaz0AAAAJ&hl=en), [Vladimir Braverman](https://scholar.google.com/citations?user=DTthB48AAAAJ&hl=en), and [Daniela Rus](https://danielarus.csail.mit.edu/)*
 
