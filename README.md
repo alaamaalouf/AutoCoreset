@@ -14,9 +14,14 @@ No worries, we got you. We propose *AutoCoreset*: an automatic practical framewo
 
 # Usage
 
+To use AutoCoreset on your data and desired ML model: 
+
+(1) Modify Line - 134 to be a list containing the path to your Dataset.
+(2) Modify Line - 138 to be the name of your ML model (currently we support 'k_means', 'logistic_regression',  'linear_regression', 'svm'). 
+(3) You can certainly change the ML model as you wish - as long as you provide the "fit" and "score" functions. 
+(4) Run: python main.py
 
 # Citation
-
 
 If you find this work helpful please cite us:
 
