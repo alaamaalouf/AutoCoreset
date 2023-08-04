@@ -10,15 +10,18 @@ A coreset is a small weighted subset that approximates the loss function on the 
 
 No worries, we got you. We propose *AutoCoreset*: an automatic practical framework for constructing coresets requiring only input data and the cost function (without any other user computation or calculation), making it user-friendly and applicable to various problems. See our open-source code which supports future research and simplifies coreset usage.
 
-![AutoCoreset design](GithubImages/autocore_teaser.png?raw=true)
+![AutoCoreset design](GithubImages/AutoCore_Teaser.png?raw=true)
 
 # Usage
 
 To use AutoCoreset on your data and desired ML model: 
 
 (1) Modify Line - 134 to be a list containing the path to your Dataset.
+
 (2) Modify Line - 138 to be the name of your ML model (currently we support 'k_means', 'logistic_regression',  'linear_regression', 'svm'). 
+
 (3) You can certainly change the ML model as you wish - as long as you provide the "fit" and "score" functions. 
+
 (4) Run: python main.py
 
 # Citation
