@@ -1,7 +1,7 @@
 import numpy as np
 import sys, time, math
 
-import utils
+import coreset_utils
 
 
 
@@ -173,18 +173,3 @@ def applyImportanceSamplingForOneMeanProblem(P, m, replace=True):
 
 
 
-
-# def attainFWCoreset(P, chunk_idxs, sample_per_chunk):
-#     if np.any(np.isnan(P)) or np.any(np.ifinf(P)):
-#         raise ValueError('This is not supported! Please check your function and the chosen model')
-#     # np.savez('data_before_falling.npz', P=P, chunk_idxs=chunk_idxs, sample_per_chunk=sample_per_chunk)
-#     # s = time.time()
-#     u = generateFrankWolfeCoreset(P, chunk_idxs.astype(np.int32), sample_per_chunk.astype(np.int32))
-#     # print('Took {} seconds to compute FW using Cython'.format(time.time() - s))
-#     #print('len(u) is {}, non-zero entries is {}'.format(len(u), np.count_nonzero(u)))
-#     #print('u contains NaNs: {}'.format(np.any(np.isnan(u))))
-#     if np.any(np.isnan(u)):
-#         raise ValueError('This is not supported! Please check your function and the chosen model')
-#     # if np.any(np.isnan(u))):
-#
-#     return np.nonzero(u)[0], u[u!=0]
