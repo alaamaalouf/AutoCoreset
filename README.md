@@ -1,16 +1,22 @@
-# AutoCoreset
+# AutoCoreset: An Automatic Practical Coreset Construction Framework [ICML 2023]
+
 
 **[1 CSAIL, MIT](https://www.csail.mit.edu/)**  | **[2 DataHeroes](https://dataheroes.ai/)**  | **[3 Rice University](https://www.rice.edu/)**
 
 *[Alaa Maalouf](https://scholar.google.com/citations?user=6r72e-MAAAAJ&hl=en), [Murad Tukan](https://scholar.google.com/citations?user=721xaz0AAAAJ&hl=en), [Vladimir Braverman](https://scholar.google.com/citations?user=DTthB48AAAAJ&hl=en), and [Daniela Rus](https://danielarus.csail.mit.edu/)*
 
 
+* Paper Link: https://arxiv.org/abs/2305.11980
+
+* Explainer video: https://icml.cc/virtual/2023/poster/24432
+
+
+![AutoCoreset design](GithubImages/AutoCore_Teaser.png?raw=true)
 
 A coreset is a small weighted subset that approximates the loss function on the whole data, prevalent in machine learning for its advantages. However, current construction methods are problem-dependent and may be challenging for new researchers.
 
 No worries, we got you. We propose *AutoCoreset*: an automatic practical framework for constructing coresets requiring only input data and the cost function (without any other user computation or calculation), making it user-friendly and applicable to various problems. See our open-source code which supports future research and simplifies coreset usage.
 
-![AutoCoreset design](GithubImages/AutoCore_Teaser.png?raw=true)
 
 # Usage
 
